@@ -1,0 +1,12 @@
+sequenceDiagram
+  participant C as Client 10.25.6.11 (no VPN)
+  participant R1 as R1 NAT 20.25.6.2
+  participant ISP as ISP
+  participant FG as FortiGate WAN 20.25.97.2
+  participant S as Server 10.6.97.2
+  C->>R1: TCP 443 to 20.25.97.2
+  R1->>ISP: NAT overload (source 20.25.6.2)
+  ISP->>FG: connected network 20.25.97.0/30
+  Note over FG: VIP-WEB-HTTPS 20.25.97.2:443 to 10.6.97.2:443<br/>Policy WAN-to-WEB-HTTPS (HTTPS, ACCEPT, NAT off)
+  FG->>S: TCP 443
+  S-->>C: TLS (ALPN http/1.1) then HTTP 200 OK, Apache/2.4.52 (Ubuntu), page "Servidor Web - Lab 2025-0697"
