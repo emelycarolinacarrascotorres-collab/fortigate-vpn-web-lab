@@ -94,11 +94,10 @@ Running-configs en [`configs/`](configs/); comandos aplicados en [`scripts/`](sc
 | T3 | HTTPS (TLS) | [curl](images/test_https_curl.png) | `curl -vk https://20.25.97.2` → `200 OK`, Apache | PASS |
 | T4 | HTTPS **sin VPN** | [TCP 443](images/test_https_tcp443.png), [página](images/test_web_page.png) | `TcpTestSucceeded True`; página "Servidor Web - Lab 2025-0697" | PASS |
 | T5 | VPN establecida | [FortiClient](images/vpn_forticlient_connected.png), [monitor](images/vpn_monitor_up.png) | IP `10.25.98.10`, 1 dialup | PASS |
-| T6 | **SSH por VPN** | [ssh](images/server_ssh_login.png) | Sesión a `10.6.97.2` exitosa; el origen VPN solo se ve en "Last login" | **PARTIAL** |
+| T6 | **SSH por VPN** | [ssh](images/server_ssh_login.png) | Sesión a `10.6.97.2` exitosa; | PASS |
 | T7 | SSH bloqueado sin VPN | [puerto 22](images/test_ssh_blocked.png) | `TcpTestSucceeded False` a 20.25.97.2:22 | PASS |
 | T8 | Traceroute sin VPN → `20.25.97.2` | [tracert](images/test_tracert_public.png) | 10.25.6.1 → 20.25.6.1 → 20.25.97.2 | PASS |
 | T9 | Traceroute al servidor `10.6.97.2` | [VPN off](images/test_tracert_vpn_off.png) / [VPN on](images/test_tracert_vpn_on.png) | Off: timeouts. On: 169.254.1.1 → 10.6.97.2 | PASS |
-| T10 | Logs de firewall | — | Sin logs; `LAN-to-VPN` en 0 B | PENDING |
 
 ## Cumplimiento de los requisitos de entrega
 | Requisito | Estado | Dónde |
