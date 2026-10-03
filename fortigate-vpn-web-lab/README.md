@@ -1,8 +1,7 @@
 # FortiGate VPN & Web Server Security Lab
 
 ## 🎥 Video demostrativo
-**VIDEO_URL_PLACEHOLDER** — *pendiente: reemplazar por el enlace real antes de la entrega.*
-
+](https://youtu.be/ODGLo07VRjQ)
 > **Política de evidencia:** todo lo documentado proviene de capturas y configuraciones reales. Lo no demostrado se marca `PARTIAL`, `PENDING EVIDENCE`, `NOT EXECUTED` o `UNKNOWN / NEEDS VERIFICATION`.
 
 ## Objetivo
