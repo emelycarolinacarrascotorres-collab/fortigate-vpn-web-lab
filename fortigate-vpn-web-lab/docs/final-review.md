@@ -1,4 +1,4 @@
-# Revisión final (auditoría)
+# auditoría
 
 ## Resumen de requisitos
 Demostrados (PASS): web sin VPN, HTTPS/TLS (curl + Apache SSL), VPN establecida, enrutamiento por VPN, SSH bloqueado sin VPN, VLAN 10, DHCP, /25, /28, traceroute, FortiGate por GUI, equipo Cisco, ISP, running-configs.
