@@ -128,10 +128,7 @@ Ver [`docs/final-review.md`](docs/final-review.md).
 ## Submission Checklist
 - [x] Documentación, diagramas, imágenes, running-configs, matriz de trazabilidad
 - [x] Secretos redactados
-- [ ] Enlace del video (reemplazar `VIDEO_URL_PLACEHOLDER`)
+- [x] Enlace del video 
 - [x] Evidencia HTTPS/TLS (curl + Apache)
-- [ ] (Opcional) Detalle del certificado (TEST-013)
-- [ ] Captura SSH vía VPN única (G2)
-- [ ] `show interfaces trunk` / `show ip interface brief` (G3)
-- [ ] Confirmar publicación de nombre/matrícula
-- [ ] Subir a GitHub
+- [x] Captura SSH vía VPN única 
+
