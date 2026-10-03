@@ -13,7 +13,6 @@ con un **FortiGate configurado y demostrado por GUI**, un equipo de red Cisco, u
 
 ![Enunciado](images/topology_assignment.png)
 
-> Todo lo que aparece aquí proviene de capturas y configuraciones reales. Lo no demostrado está marcado como **PARTIAL**, **PENDING** o **NOT EXECUTED**.
 
 ## Topología
 ![Topología GNS3](images/topology_gns3.png)
