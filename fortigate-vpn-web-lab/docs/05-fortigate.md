@@ -1,7 +1,5 @@
 # 05 · FortiGate (solo GUI)
 
-> Todas las capturas de esta sección son de la **GUI** del FortiGate. No se incluye CLI de FortiGate porque no se aportó ninguna evidencia CLI.
-> Las capturas no muestran la ruta de menú (breadcrumb); las rutas indicadas son las habituales de FortiOS 7.0 y se marcan como *(menú presumido)*. Versión: la etiqueta GNS3 dice `FortiGate7.0.9-1`; la GUI no muestra la versión.
 
 ## 1. Interfaces — *Network > Interfaces (menú presumido)*
 ![Interfaces](images/02-fortigate/fortigate_interfaces.png)
