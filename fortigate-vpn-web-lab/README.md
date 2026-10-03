@@ -105,19 +105,11 @@ Running-configs en [`configs/`](configs/); comandos aplicados en [`scripts/`](sc
 |---|---|---|
 | Repositorio de GitHub | Listo para subir | este repo |
 | Documentación profesional | ✅ | este README |
-| Video al inicio | ⚠️ placeholder | primera sección |
+| Video al inicio |✅ | primera sección |
 | Imágenes | ✅ 33 capturas reales | [`images/`](images/) |
 | Diagramas | ✅ | Topología/flujo arriba y [`diagrams/`](diagrams/) |
 | Propósito del laboratorio | ✅ | sección "Propósito" |
 | Scripts utilizados | ✅ listados de comandos (no hay `.sh`) | [`scripts/`](scripts/) |
 | Running-configs | ✅ R1, SW-1, ISP | [`configs/`](configs/) |
 
-## Limitaciones conocidas (sin ocultar)
-- **SSH por VPN:** falta una captura única con la VPN conectada que muestre `ssh` y `who`/`$SSH_CLIENT`.
-- **Certificado TLS:** no hay captura de su contenido; el estado de la VPN no aparece en las capturas de HTTPS.
-- **Seguridad:** DES e IKEv1 Aggressive (débiles), política `LAN-to-WAN` `all → all`, logs de *Implicit Deny* desactivados.
-- **/28 privado:** `10.6.97.0/28` es privado; la IP pública es `20.25.97.2` (VIP). El enunciado pide "/28" e "IP públicas" por separado.
-- **VPN:** es acceso remoto (FortiClient), que es lo que dibuja el enunciado (cliente ↔ FortiGate del servidor), no FortiGate ↔ FortiGate.
-- **Discrepancias menores:** `show vlan brief` con prompt `Switch#` (el hostname es `SW-1`); ISP sin el hardening de su listado de comandos; no se aportaron los comandos de instalación de Apache/SSL.
-- **Capturas no incluidas:** dos pruebas de SSH sin VPN con resultados distintos entre sí (ping *TimedOut* vs. ping respondido) y una captura de Firefox no concluyente. Los archivos originales no fueron alterados.
 - Nombre y matrícula aparecen en banners/capturas (`EMELY CARRASCO 2025-0697`).
