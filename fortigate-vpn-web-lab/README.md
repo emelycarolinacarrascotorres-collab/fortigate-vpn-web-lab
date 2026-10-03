@@ -1,7 +1,7 @@
 # FortiGate VPN & Web Server Security Lab
 
 ## 🎥 Video demostrativo
-[**VIDEO_URL_PLACEHOLDER** — *pendiente: reemplazar por el enlace del video antes de entregar.*](https://youtu.be/ODGLo07VRjQ)
+[video](https://youtu.be/ODGLo07VRjQ)
 
 ## Propósito del laboratorio
 Implementar la **Infraestructura 3** del enunciado: un usuario (red `/25`, VLAN 10, DHCP) debe
