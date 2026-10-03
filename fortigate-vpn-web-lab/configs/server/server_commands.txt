@@ -1,9 +1,0 @@
-Config de Servidor web 
-
-apt update
-apt install openssh-server -y
-mkdir -p /run/sshd
-service ssh start
-
-adduser emely
-grep emely /etc/passwd

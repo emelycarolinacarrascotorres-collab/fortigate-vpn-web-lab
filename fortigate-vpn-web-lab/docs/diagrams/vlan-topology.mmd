@@ -1,4 +1,0 @@
-flowchart LR
-  R1["R1 CISCO-SRV<br/>Gi2/0 (no IP)<br/>Gi2/0.10 dot1Q 10<br/>10.25.6.1/25"] -- "trunk dot1Q<br/>allowed VLAN 10<br/>(SW-1 Gi0/0)" --> SW["SW-1<br/>VLAN 10"]
-  SW -- "Gi0/1 access VLAN 10" --> PC["windows10-1<br/>10.25.6.11/25<br/>GW 10.25.6.1<br/>DNS 8.8.8.8 via DHCP pool"]
-  DHCP[["DHCP pool USUARIOS-V10<br/>network 10.25.6.0/25<br/>excluded 10.25.6.1-10.25.6.10"]] -.-> R1
